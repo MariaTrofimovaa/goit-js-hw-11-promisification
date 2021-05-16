@@ -7,10 +7,10 @@
 */
 
 const delay = ms => {
-  // return new Promise(resolve => {
-  //   setTimeout(() => resolve(ms));
-  // }, ms);
-  return Promise.resolve(ms);
+  return new Promise(resolve => {
+    setTimeout(() => resolve(ms));
+  }, ms);
+  // return Promise.resolve(ms); // выполнится моментально (без задержки)
 };
 
 const logger = time => console.log(`Resolved after ${time}ms`);
