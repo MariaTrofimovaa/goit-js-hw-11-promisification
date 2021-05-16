@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/luxplanjay/webpack-starter-kit/issues"
   },
-  "homepage": "https://github.com/MariaTrofimovaa/goit-js-hw-11-promisification",
+  "homepage": "https://mariatrofimovaa.github.io/goit-js-hw-11-promisification/https://github.com/MariaTrofimovaa/goit-js-hw-11-promisification",
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
